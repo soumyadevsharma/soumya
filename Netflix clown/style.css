@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.main{
+    background:  rgba(0,0,0,0.44)url(Wallpaper.jpg);
+    height: 700px;
+    width: 100%;
+    background-blend-mode: darken;
+}
+.main .box{
+    opacity: 0.44;
+}
+
+.navbar{
+    height: 50px;
+    width: 90%;
+    padding: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo img{
+    height: 40px;
+    width: 150px;
+}
+
+/* nav-box */
+
+.nav-box2{
+    display: flex;
+    justify-content: center;    
+}
+
+.nav-lang{
+    height: 32px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-lang i{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-lang select{
+    height: 32px;
+    width: 80px;
+    background-color: black;
+    border: none;
+}
+
+.nav-search button{
+    height: 35px;
+    width: 90px;
+    font-size: 1rem;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.border{
+    border: 2px solid rgb(118, 118, 118);
+}
+
+.center{
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   margin-top: 100px; 
+}
+
+.center h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.email-signup{
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+
+.email-signup button{
+    background-color: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px ;
+}
+
